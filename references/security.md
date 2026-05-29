@@ -9,6 +9,7 @@ Never commit:
 - local `~/.mineru/config.yaml`
 - local `lark-cli` config
 - generated reports, paper PDFs, MinerU extraction outputs, or private site builds
+- topic-specific private notes, paid-content downloads, or unpublished reviewer material
 
 Use environment variables or local config files outside the repository for credentials.
 

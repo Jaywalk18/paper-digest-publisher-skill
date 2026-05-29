@@ -9,6 +9,9 @@ secrets.*
 
 # Local outputs
 paper_reports/
+paper_digest_reports/
+paper_digest_site/
+digest_site/
 visual_ssl_paper_reports/
 visual_ssl_digest_site/
 staging_pdfs/

@@ -1,4 +1,4 @@
 interface:
-  display_name: "Visual SSL Digest"
-  short_description: "Publish visual SSL paper digests safely"
-  default_prompt: "Use $visual-ssl-digest-skill to generate and publish today's visual self-supervised learning paper digest."
+  display_name: "Paper Digest Publisher"
+  short_description: "Publish topic-specific paper digests safely"
+  default_prompt: "Use $paper-digest-publisher-skill to generate, validate, and publish a paper digest for my chosen research topic."

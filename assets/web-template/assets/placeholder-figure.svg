@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Placeholder paper figure</title>
+  <desc id="desc">A neutral diagram placeholder for a research digest card.</desc>
+  <rect width="1200" height="675" fill="#e9ece8"/>
+  <rect x="90" y="86" width="1020" height="503" rx="20" fill="#ffffff" stroke="#cbd4d0" stroke-width="4"/>
+  <circle cx="250" cy="250" r="86" fill="#2f6f73" opacity="0.9"/>
+  <rect x="400" y="182" width="510" height="42" rx="10" fill="#154f54" opacity="0.9"/>
+  <rect x="400" y="262" width="650" height="28" rx="8" fill="#b05f2c" opacity="0.72"/>
+  <rect x="400" y="322" width="590" height="28" rx="8" fill="#7a8b8d" opacity="0.5"/>
+  <path d="M190 453h820" stroke="#2f6f73" stroke-width="14" stroke-linecap="round" opacity="0.34"/>
+  <path d="M190 505h620" stroke="#b05f2c" stroke-width="14" stroke-linecap="round" opacity="0.34"/>
+</svg>

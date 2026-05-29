@@ -68,7 +68,7 @@ def download_missing(papers: list[dict[str, str]], staging_dir: Path) -> int:
         if path.exists() and path.stat().st_size > 100_000:
             continue
         url = f"https://arxiv.org/pdf/{paper['arxiv_id']}"
-        request = urllib.request.Request(url, headers={"User-Agent": "visual-ssl-digest-skill/1.0"})
+        request = urllib.request.Request(url, headers={"User-Agent": "paper-digest-publisher-skill/1.0"})
         with urllib.request.urlopen(request, timeout=90) as response:
             path.write_bytes(response.read())
         downloaded += 1

@@ -21,7 +21,7 @@ def count_images(root: Path) -> int:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Validate a Visual SSL digest static site build.")
+    parser = argparse.ArgumentParser(description="Validate a paper digest static site build.")
     parser.add_argument("--site-root", required=True)
     parser.add_argument("--date", required=True)
     parser.add_argument("--report", help="Optional Markdown report; enables per-paper asset checks.")

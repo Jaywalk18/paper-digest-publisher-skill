@@ -1,0 +1,55 @@
+{
+  "title": "Research Digest",
+  "date": "YYYY-MM-DD",
+  "summary": "Replace this with a one-sentence description of the configured topic and retrieval window.",
+  "stats": {
+    "new": 3,
+    "updated": 1,
+    "filtered": 8,
+    "images": 12
+  },
+  "archiveNote": "Replace with catalog or previous issue links.",
+  "trends": [
+    "Trend observation one, grounded in the papers selected for this issue.",
+    "Trend observation two, focused on method, benchmark, or source-status movement."
+  ],
+  "papers": [
+    {
+      "priority": "P0",
+      "title": "Example Broadly Relevant Paper",
+      "authors": "First Author, Second Author",
+      "topic": "Core Method",
+      "type": "arXiv",
+      "reason": "This card explains why the paper should be read first.",
+      "method": "Summarize the key method in one concise sentence.",
+      "limitation": "Mention the main caveat or missing evidence.",
+      "image": "assets/placeholder-figure.svg",
+      "imageAlt": "Placeholder figure for the example paper",
+      "caption": "Replace with an extracted figure caption or honest fallback note.",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "priority": "P1",
+      "title": "Example Adjacent Paper",
+      "authors": "Third Author",
+      "topic": "Benchmark",
+      "type": "Conference",
+      "reason": "This card shows a second topic and source type.",
+      "method": "Summarize what changed or what was evaluated.",
+      "limitation": "Explain why it is not P0.",
+      "image": "assets/placeholder-figure.svg",
+      "imageAlt": "Placeholder figure for the adjacent paper",
+      "links": [
+        {
+          "label": "Source",
+          "url": "#"
+        }
+      ]
+    }
+  ]
+}
