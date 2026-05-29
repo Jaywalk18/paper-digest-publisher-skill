@@ -1,0 +1,24 @@
+.env
+.env.*
+*.token
+*.secret
+config.yaml
+secrets.*
+*_secret.*
+*_private.*
+
+# Local outputs
+paper_reports/
+visual_ssl_paper_reports/
+visual_ssl_digest_site/
+staging_pdfs/
+mineru_probe/
+assets/mineru/
+*.pdf
+*.zip
+
+# Python / OS noise
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
